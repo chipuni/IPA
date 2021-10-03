@@ -1,0 +1,17 @@
+If you're interested in a dictionary that converts English text to IPA, the file
+data/word_to_ipa.csv is what you're looking for.
+
+--------
+
+The International Phonetic Alphabet gives a pronunciation for any word. But I couldn't
+find Python projects that let me convert from English text to the IPA.
+
+There is one major pronouncing dictionary -- the CMU Pronouncing dictionary, available at
+http://www.speech.cs.cmu.edu/cgi-bin/cmudict . But I read that there was a bigger dictionary,
+called the Moby Project, by Grady Ward. Copies of the Moby Project were available at
+https://github.com/Hyneman/moby-project . I chose that as my base.
+
+The Moby Project's files were badly documented, and the files were slightly corrupt. I've
+fixed them, as best I could, in this version of the project.
+
+Please let me know about any mistakes in this dictionary!
