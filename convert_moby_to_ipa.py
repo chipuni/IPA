@@ -20,7 +20,7 @@ def main():
 
     with open("data/word_to_ipa.csv", "w") as word_to_ipa:
         for (word, ipa, part_of_speech) in map_word_ipa:
-            print(f'"{word}", "{ipa}", "{part_of_speech}"', file=word_to_ipa)
+            print(f'"{word}","{ipa}","{part_of_speech}"', file=word_to_ipa)
 
 
 def split(text):
